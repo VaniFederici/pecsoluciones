@@ -161,7 +161,7 @@ body {
 
 .services-box i {
   line-height: 75px;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .services-box h4 {
@@ -173,6 +173,10 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 25px;
+}
+.service-icon {
+  width: 60px;
+  height: 60px;
 }
 
 /* Price Table CSS */
