@@ -57,6 +57,7 @@ body {
 .slide-text {
   color: #fff;
   margin-top: 80px;
+  width: 700px;
 }
 
 .slide-text h1 {
@@ -67,8 +68,11 @@ body {
 
 .slide-text p {
   font-size: 17px;
+  position: absolute;
 }
-
+.image-cont {
+  position: relative;
+}
 /* Features CSS */
 
 .features-div {
@@ -508,6 +512,7 @@ footer {
   .slide-text {
     color: #fff;
     margin-top: 80px;
+    width: 700px;
   }
 
   .slide-text h1 {
