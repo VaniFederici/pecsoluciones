@@ -44,6 +44,7 @@ body {
 }
 .nav-bar-container {
   overflow: hidden;
+  height: 90px;
 }
 .navbar-nav li:nth-last-child(1) a {
   background: rgba(0, 0, 0, 0.3);
@@ -142,15 +143,11 @@ body {
 }
 
 .more-features-div-heading {
-  float: right;
-  width: 86%;
   margin-top: 0;
   font-weight: 400;
 }
 
 .more-features-div-description {
-  float: right;
-  width: 86%;
   font-weight: 300;
   font-size: 1.6rem;
 }
