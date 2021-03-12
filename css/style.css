@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto" !important;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .main_heading {
@@ -41,7 +42,9 @@ body {
   font-size: 28px;
   margin-top: 5px;
 }
-
+.nav-bar-container {
+  overflow: hidden;
+}
 .navbar-nav li:nth-last-child(1) a {
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
@@ -68,11 +71,10 @@ body {
 
 .slide-text p {
   font-size: 17px;
+}
+/* .image-cont {
   position: absolute;
-}
-.image-cont {
-  position: relative;
-}
+} */
 /* Features CSS */
 
 .features-div {
